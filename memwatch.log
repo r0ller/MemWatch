@@ -1,0 +1,13 @@
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Mon May  6 21:25:51 2019
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Mon May  6 21:25:51 2019
+
+unfreed: <4> test.cpp(13), 40 bytes at 0x7f7ff770d0c0  	{FE FE FE FE FE FE FE FE FE FE FE FE FE FE FE FE ................}
+internal: <4> memwatch.c(547), checksum for MW-0x7f7ff770d070 is incorrect

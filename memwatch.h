@@ -654,7 +654,7 @@ extern void mwDummyTraceFunction(const char *,...);
     }
 #endif
 
-#if 0 /* 980317: disabled C++ */
+/*#if 0*/ /* 980317: disabled C++ */
 
 /*
 ** C++ support section
@@ -700,7 +700,7 @@ void operator delete(void *);
 #endif /* !__MEMWATCH_C */
 #endif /* __cplusplus */
 
-#endif /* 980317: disabled C++ */
+/*#endif*/ /* 980317: disabled C++ */
 
 #endif /* __MEMWATCH_H */
 
